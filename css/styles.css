@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --main-bg-colour: #171a21;
+    --text-colour-light: #F2FDFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    color: var(--text-colour-light);
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+
+}
+body {
+    background-color: var(--main-bg-colour);
+}
+header {
+    height: 10vh;
+    padding: 10px;
+}
+#mainNav {
+    float: right;
+    width: 30%;
+}
+.nav-item a:is(:link,:visited) {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-toggler > img {
+    transform: rotate(90deg);
+    height: 50px;
+}
+@media screen and (max-width:400px) {
+}
