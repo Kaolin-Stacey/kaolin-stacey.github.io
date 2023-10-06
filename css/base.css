@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root {
-
     --colour-1: #E54B4B;
     --colour-2: #FFA987;
     --colour-3: #f0f0f0;
@@ -22,32 +21,4 @@
 }
 body {
     background-color: var(--colour-3);
-}
-
-.intro-image {
-    width: 100%;
-    height: auto;
-    grid-column: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    filter: drop-shadow(5px 5px 5px var(--colour-5));
-}
-
-.text {
-    height: min-content;
-    grid-row: 2;
-    grid-column: 3;
-}
-
-.text * {
-    text-align: end;
-}
-
-.intro-section {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 15% 10% 25% 35% 5%;
-    grid-template-rows: 15% 30% 30% 15%;
-    grid-gap: 10px;
 }
