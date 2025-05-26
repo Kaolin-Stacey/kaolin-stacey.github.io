@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "homepage": "https://kaolin-stacey.github.io",
   "version": "0.1.0",
+  "homepage": "https://kaolin-stacey.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
