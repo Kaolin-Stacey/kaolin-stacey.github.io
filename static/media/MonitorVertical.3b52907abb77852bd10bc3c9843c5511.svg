@@ -1,0 +1,10 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 45 80"
+>
+{/* Monitor screen */}
+<rect width="45" height="70" rx="4" stroke="#1c220f" strokeWidth="2" fill="#606C38" />
+
+{/* Stand, positioned at bottom center */}
+<rect x="19.5" y="70" width="6" height="10" fill="#1c220f" />
+</svg>

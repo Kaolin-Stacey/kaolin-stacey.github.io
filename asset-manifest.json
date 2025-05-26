@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dfb3433d.css",
+    "main.js": "/static/js/main.eb61fbe4.js",
+    "static/media/FiraCode-VariableFont_wght.ttf": "/static/media/FiraCode-VariableFont_wght.56402a6df7b1f107e9c4.ttf",
+    "static/media/Quicksand-VariableFont_wght.ttf": "/static/media/Quicksand-VariableFont_wght.7e79b7e7f9a882bcb2ab.ttf",
+    "index.html": "/index.html",
+    "static/media/DeskBase.svg": "/static/media/DeskBase.e8986e980d97810b2341778e936e9410.svg",
+    "static/media/Keyboard.svg": "/static/media/Keyboard.9a5385408298e6ed726668e7bf9a8918.svg",
+    "static/media/Window.svg": "/static/media/Window.8e761d5715fb75a1b6979737cd24dae2.svg",
+    "static/media/MonitorVertical.svg": "/static/media/MonitorVertical.3b52907abb77852bd10bc3c9843c5511.svg",
+    "static/media/MonitorHorizontal.svg": "/static/media/MonitorHorizontal.54a3e00a5179682730f44b32f3e5f0a1.svg",
+    "main.dfb3433d.css.map": "/static/css/main.dfb3433d.css.map",
+    "main.eb61fbe4.js.map": "/static/js/main.eb61fbe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb3433d.css",
+    "static/js/main.eb61fbe4.js"
+  ]
+}
