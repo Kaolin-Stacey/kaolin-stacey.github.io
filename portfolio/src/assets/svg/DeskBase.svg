@@ -1,0 +1,13 @@
+<!-- src/assets/svgs/Desk.svg -->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 300 300"
+>
+{/* Desk Top */}
+<rect x="20" y="180" width="260" height="20" rx="4" fill="#BC6C25" stroke="#8A5720" strokeWidth="2" />
+
+{/* Desk Legs */}
+<rect x="30" y="200" width="20" height="80" fill="#DDA15E" />
+<rect x="250" y="200" width="20" height="80" fill="#DDA15E" />
+
+</svg>

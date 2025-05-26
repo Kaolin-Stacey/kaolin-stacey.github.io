@@ -1,0 +1,12 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 300 300"
+>
+{/* Keyboard base */}
+<rect x="0" y="8" width="80" height="8" rx="2" fill="#323435" />
+
+{/* Keys */}
+<rect x="5" y="10" width="5" height="4" fill="#F2FDFF" />
+<rect x="12" y="10" width="5" height="4" fill="#F2FDFF" />
+<rect x="19" y="10" width="5" height="4" fill="#F2FDFF" />
+</svg>

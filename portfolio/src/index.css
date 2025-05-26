@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('./fonts/FiraCode-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --colour-1: #606C38;
+  --colour-2: #283618;
+  --colour-3: #FEFAE0;
+  --colour-4: #DDA15E;
+  --colour-5: #BC6C25;
+  --text-colour-light: #F2FDFF;
+  --text-colour-dark: #323435;
+
+  transition: 
+    --colour-1 0.5s ease,
+    --colour-2 0.5s ease,
+    --colour-3 0.5s ease,
+    --colour-4 0.5s ease,
+    --colour-5 0.5s ease,
+    --text-colour-light 0.5s ease,
+    --text-colour-dark 0.5s ease;
+}
+
+[data-theme='dark'] {
+  /* Dark palette */
+  --colour-1: #A3B18A;
+  --colour-2: #152014;
+  --colour-3: #222B17;
+  --colour-4: #A87C42;
+  --colour-5: #8A5720;
+  --text-colour-light: #E8F1F2;
+  --text-colour-dark: #AAB2A7;
+
+  transition: 
+    --colour-1 0.5s ease,
+    --colour-2 0.5s ease,
+    --colour-3 0.5s ease,
+    --colour-4 0.5s ease,
+    --colour-5 0.5s ease,
+    --text-colour-light 0.5s ease,
+    --text-colour-dark 0.5s ease;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--colour-2);
+  color: var(--text-colour-light);
+  transition: background-color 0.5s ease, color 0.5s ease;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+code, .code {
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+}

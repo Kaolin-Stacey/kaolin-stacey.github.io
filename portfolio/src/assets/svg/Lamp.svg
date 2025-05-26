@@ -1,0 +1,9 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 300 300"
+>           
+{/* Lamp */}
+<rect x="60" y="130" width="4" height="30" fill="#606C38" />
+<polygon points="50,130 78,130 70,115 58,115" fill="#DDA15E" />
+<circle cx="64" cy="114" r="2" fill="#FEFAE0" />
+</svg>
